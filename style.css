@@ -1,0 +1,320 @@
+
+
+
+
+/* Instagram icon and logo png image */
+.Insta-logo{
+    width: 100px;
+    height: 60px;
+    margin-bottom: 17px;
+    margin-top: -5px;
+
+}
+
+.menu-reel{
+    display: flex;
+}
+/* Whole part of reels and stories start */
+.Nav_column{
+    /* background-color: aqua; */
+    width: 55%;
+    /* position: fixed; */
+    /* background-color: blue; */
+}
+/* Whole part of reels and stories end */
+
+/* heading part of reel start */
+/* .component_heading{
+width: 63%;
+height: 45px;
+background-color: black;
+margin-left: 150px;
+margin-top: 50px;
+} */
+
+.oneReelPart{
+    /* width: 63; */
+    width: 90%;
+    margin-left: 145px;
+    margin-top: 56px;  
+}
+.component_heading{
+   
+    height: 45px;
+    /* background-color: black; */
+   
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .id-name{
+    
+} */
+ 
+/* belowReelIcon */
+.bi:hover{
+    color:grey;
+    
+    
+}
+.bi{
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* positioning of Nav_column  start */
+.Nav_column{
+    margin-left: 230px;
+}
+
+.user-name{
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.navbar-expand-lg::-webkit-scrollbar{
+    display: none;
+    
+}
+.photoImage{
+    width: 100%; 
+    height: 500px;
+    /* background-size: cover; */
+    object-fit: cover;
+
+}
+.bi.bi-bookmark{
+    margin-left: 310px;
+    margin-right: 0px !important;
+}
+.comment-link{
+    text-decoration: none;
+    color:rgb(151, 148, 148) ;
+}
+
+.add-comment{
+    border: none;
+     /* width: 100%; */
+     outline: none;
+     font-size: 15px;
+     
+     
+}
+.id-link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.tickIcon{
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+}
+
+.bi.bi-emoji-smile{
+    margin-left: 240px;
+    color: rgba(0,0,0,0.5);
+}
+.profile-suggestions{
+   
+    width: 100%;
+    /* position: fixed; */
+    motion: none;
+}
+
+.whole{
+    display: flex;
+}
+.profile-pic img{
+background-position: center; 
+width: 45px;
+height:45px;
+border-radius: 50%;
+object-fit:contain;
+}
+
+.whole-wrapper{
+    margin-left: 74px;
+    margin-top: 60px;
+    position: fixed;
+}
+.user-profile-name{
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+
+.profile-card{
+    display: flex;
+}
+.switch{
+    border: none;
+    color: rgb(7, 159, 247);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+.see-all{
+    border: none;
+    color:black;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 125px;
+    margin-top: -10px;
+
+}
+.followButton{
+
+    border: none;
+    color: rgb(7, 159, 247);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 13px;
+    /* margin-left: 130px; */
+    
+    margin-top: -10px;
+}
+
+.search-heading h1{
+    /* color: pink; */
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* font-size: 24px; */
+font-size: 30px;
+font-weight: 500;
+color: white;
+/* color: black; */
+margin-left: 10px;
+margin-top: 40px;
+/* text-align: center; */
+}
+.search-input{
+    width: 400px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    /* background-color:rgb(231, 231, 231); */
+    /* opacity: 50%; */
+    height: 40px;
+    border-radius: 5px;
+    /* font-weight: 550; */
+    color:black;
+    background-color: white;
+    margin-left: 8px;
+    
+
+}
+
+.search-page{
+    margin-left: 10px;
+    /* background-color: bisque; */
+    height: 650px;
+    /* width: 420px; */
+    /* overflow: hidden; */
+    visibility: hidden;
+    position:absolute;
+    /* transform: translate(-50%,-50%) scale(0.1); */
+    top: 1px;
+    border-radius:30px;
+    width: 0px;
+    transition: width 200ms;
+
+
+    
+}
+.search-bar i{
+    position: absolute;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    color: rgba(0,0,0,0.5);
+    /* visibility: hidden; */
+    /* color: white; */
+}
+.search-bar .bi-search{
+    margin-left: 15px;
+    text-align: center;
+}
+.popupSearch{
+    /* margin-left: 230px; */
+    /* background-color: white; */
+    background: linear-gradient(45deg, rgb(255,230,0), rgb(255,0,128) 80%); 
+    height: 650px;
+    width: 420px;
+    overflow: hidden;
+    visibility: visible;
+    position: absolute;
+    /* transform: translate(-50%,-50%) scale(1); */
+    top: 1px;
+    margin-top: 10px;
+    box-shadow:10px 10px 5px rgb(186, 186, 186) ;
+    width: 420px;
+    transition-timing-function: ease-in-out;
+    
+    margin-left: 20px;
+    /* background-color: rgb(244, 241, 241); */
+    
+}
+.searchIcon{
+    visibility: hidden;
+}
+
+.photo i{
+    color: red;
+    /* top: 50%; */
+    left: 45%;
+    position:absolute;
+    transform: translate(-50%,-50%) scale(0);
+    justify-content: center;
+    margin-top: 15%;
+    visibility: hidden;
+    
+    /* animation: heartGrow 0.8s linear;
+    -webkit-animation: heartGrow 0.8s linear;
+ */
+}
+.photo{
+    justify-content: center;
+}
+
+@keyframes heartGrow{
+    0%{
+        transform: scale(1);
+
+    }
+    100% {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+.heart-animation i{
+    visibility: visible;
+    animation: heartGrow 0.8s linear;
+    /* -webkit-animation: heartGrow 0.8s linear; */
+    
+    
+}
+.explore-whole{
+    display: inline;
+}
+.images-whole{
+    background-color: aquamarine;
+    margin-left: 280px;
+
+  
+}
+
+.bi-heart:hover{
+color: red;
+fill: red;
+    
+}

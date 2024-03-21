@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        
+            .nav-item{
+                font-size: 16px;
+                color: black;
+                margin-bottom: 18px;
+                /* width: 170px; */
+                /* cursor: pointer; */
+               
+            }
+            
+            .column{
+                display:contents;
+                /* position: fixed; */
+            }
+            .nav-link{
+            color:black;
+            margin-top:2px;
+            margin-left: -20px;
+            margin-right: 20px;
+            
+            
+            
+            
+            
+            }
+            .flex-column {
+            margin-left: 25px;
+            margin-top: 30px;
+            
+            
+            }
+            .vertical{       
+            
+            height:100%;
+            border-right: 2px solid rgb(232, 229, 229);
+            
+            position:fixed;
+            
+            left: 18%;
+            }
+            .nav-link:hover{
+            background-color: rgb(243, 243, 243);
+            width: 200px;
+            border-radius: 5px;
+            
+            }
+            .menu_and_side{
+            display: flex;
+            position: fixed;
+            }   
+            .navbar-expand-lg{
+            margin-left: 67px;
+            height: 120px;
+            width:630px;
+            margin-top: 30px;
+            overflow: hidden;
+            overflow-x:scroll;
+            
+            
+            
+            
+            
+            }    
+            .nav-item1{
+            margin-right: 20px;
+            
+            
+            /* background-size:cover; */
+            background-position: center;
+            width: 60px;
+            height: 60px ;
+            border-radius:50% ;  
+            /* background-clip:padding-box; */
+            background: linear-gradient(45deg, rgb(255,230,0), rgb(255,0,128) 80%); 
+            /* border-color:  rgb(255,0,128); */
+            /* border: 2.5px solid  rgb(255,0,128); */
+            /* border-color:45deg, rgb(255,230,0), rgb(255,0,128) 80%;   */
+            
+            padding: 3px;
+            }
+            
+            
+            .nav-item1 img{
+              margin-right: 20px;
+            /* background-size:cover;
+            background-position: center;
+            width: 60px;
+            height: 60px ; */
+            border-radius:50% ;
+            border: 2px solid white;
+            /* position:absolute; */
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+            
+            
+            }
+            
+             </style>
+
+    </head>
+   
+    <body>
+      
+      <div class="explore-whole">
+       <!-- Navbar starts -->
+        <div class="menu_and_side">  
+            <div class="vertical"></div>
+          
+                  
+                <ul class="nav flex-column">
+                  <img src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo.png" class="Insta-logo">
+                  
+                      <!-- <h3 style="font-family:'Times New Roman', Times, serif;margin-bottom: 45px; font-weight: 500; ">Instagram</h3> -->
+                     
+                      <ul class="column">
+                      
+                      <li class="nav-item" style="display: flex;  ">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" 5ill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                            </svg>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                      </li>
+                      <li class="nav-item " style="display: flex;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        <a class="nav-link" onclick="openSearchPage()" style="cursor: pointer;">Search</a>
+                      </li>
+                      <li class="nav-item" style="display: flex;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-compass" viewBox="0 0 16 16">
+                              <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                              <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+                            </svg>
+                        <a class="nav-link active" href="/explore.html">Explore</a>
+                      </li>
+                      <li class="nav-item" style="display: flex;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                              <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
+                            </svg>
+                        <a class="nav-link " href="#">Reels</a>
+                      </li>
+                      <li class="nav-item" style="display: flex;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"/>
+                            </svg>
+                          <a class="nav-link " href="#">Message</a>
+                        </li>
+                        <li class="nav-item" style="display: flex;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                              <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                          <a class="nav-link " href="#">Notifications</a>
+                        </li>
+                        <li class="nav-item" style="display: flex;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                              <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                          <a class="nav-link " href="#">Create</a>
+                        </li>
+                        <li class="nav-item" style="display: flex;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                            </svg>
+                          <a class="nav-link " href="#">Profile</a>
+                        </li>
+                        <li class="nav-item" style="display: flex; margin-top: 29px;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                        <a class="nav-link " href="#">More</a>
+                      </li>
+                      </ul>
+                    </ul>
+          
+                    </div>
+     <!-- navbar ends -->
+     <div class="images-whole">
+     <h1>explore page</h1>
+    </div>
+    <div class="search-page" id="searchPage" style="margin-left: 250px;">
+      <div class="search-heading">
+          <h1>Search</h1>
+  
+      </div>
+      <div class="search-bar" >
+          <i id="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></i>
+          <input type="text" class="search-input" placeholder="         Search"  id ="search-input"onclick="search()" >
+          
+      </div>
+  </div>
+
+    </div>
+    <!-- Search page and search page functioning start -->
+  
+<!-- Search page and search page functioning end -->
+  
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"></script>
+            <script src="searchJS.js"></script>
+    </body>
+</html>
